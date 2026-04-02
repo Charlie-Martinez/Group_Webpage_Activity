@@ -8,16 +8,20 @@ body {
 
 /* Header section styling */
 header {
-    background: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    position: relative;
+    background-image: url('img/background.png');
+    background-size: cover;
+    background-position: center;
 }
 
 /* Styling for team logo image */
 .team-logo {
     width: 150px; /* Adjust the size as needed */
     margin-top: 10px;
+    border-radius: 50%;
 }
 
 /* Menu button styling */
@@ -148,4 +152,32 @@ button:hover {
 
 .charlie-socials a:hover {
     transform: scale(1.1);
+}
+
+.vision-container {
+    display: block;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.vision-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.vision-card h2 {
+    border-left: 5px solid #e67e22;
+    padding-left: 1rem;
+}
+
+.team-rules {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.team-rules li {
+    margin: 0.8rem 0;
 }
