@@ -24,6 +24,7 @@
 <div id="bios" class="container">
     <!-- Each card represents an individual team member -->
 
+
     <!-- Charlie's card-->
     <div class="card charlie-card">
         <div class="avatar">
@@ -59,13 +60,15 @@
         </div>
     </div>
 
+
     <!-- Placeholder card-->
     <div class="card">
         <h2>Jane Smith</h2>
         <p>Backend Developer</p>
         <button onclick="toggleBio('bio2')">Show Bio</button>
-        <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
+        <p id="bio1" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
     </div>
+
 
     <!-- Placeholder card-->
     <div class="card">
@@ -74,6 +77,7 @@
         <button onclick="toggleBio('bio2')">Show Bio</button>
         <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
     </div>
+
 
     <!-- Placeholder card-->
     <div class="card">
@@ -84,10 +88,21 @@
     </div>
 </div>
 
+
 <!-- Team vision/mission statement section (hidden by default) -->
-<div id="vision" class="container" style="display: none;">
-    <h2>Our Mission Statement</h2>
-    <p>We strive to create a collaborative, inclusive, and innovative environment where team members feel empowered to push boundaries and achieve excellence in their craft. Our mission is to deliver high-quality solutions that meet and exceed our clients' expectations.</p>
+<div id="vision" class="container vision-container" style="display: none;">
+    <div class="vision-card">
+        <h2>Our Mission Statement</h2>
+        <p>We are a team of computer scientists striving to diversify our skill sets to build innovative solutions to solve real world problems with clean and modifiable code with creative thinking.</p>
+
+        <h3>Team Rules</h3>
+        <ul class="team-rules">
+            <li>🤝 Respect each other's time and idea with open, honest, and thoughtful communication</li>
+            <li>🌿 Use branches to have a clear separation of changes</li>
+            <li>💡 Promote collaboration and the sharing of ideas to help each other grow</li>
+            <li>🧹 Keep repository clean with meaningful commit messages</li>
+        </ul>
+    </div>
 </div>
 
 <script src="script.js"></script> <!-- Link to external JavaScript file -->
