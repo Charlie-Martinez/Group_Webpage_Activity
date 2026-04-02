@@ -9,7 +9,7 @@
 <body>
 
 <header>
-    <h1>Meet Our Team</h1>
+    <h1>Team: IP Frequently</h1>
     <!-- Example team logo -->
     <img src="img/team-logo.png" alt="Team Logo" class="team-logo">
 
@@ -23,18 +23,59 @@
 <!-- Team bios section (default section) -->
 <div id="bios" class="container">
     <!-- Each card represents an individual team member -->
-    <div class="card">
-        <h2>John Doe</h2>
-        <p>Frontend Developer</p>
-        <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
+
+    <!-- Charlie's card-->
+    <div class="card charlie-card">
+        <div class="avatar">
+            <img src="img/Charlie.png" alt="charlie-avatar" width="100" height="100">
+        </div>
+        <h2>Charlie Martinez</h2>
+        <p>Data Engineering, IT Operations, & Cloud Infrastructure</p>
+        <button onclick="toggleBio('charlie-bio')">Toggle Bio</button>
+        <p id="charlie-bio" class="bio">I'm a Computer Science student at UNC Charlotte (graduating December 2026) with a passion for building systems that turn raw data into actionable insights.</p>
+
+        <!-- Moodboard -->
+        <div class="charlie-moodboard">
+            <h3>Skills</h3>
+            <div class="charlie-skills-grid">
+                <div>🐍 Python</div>
+                <div>☕ Java</div>
+                <div>🗄️ SQL</div>
+                <div>☁️ AWS</div>
+                <div>📜 Javascript</div>
+                <div>🌐 HTML</div>
+                <div>🎨 CSS</div>
+                <div>⚛️ React</div>
+            </div>
+
+            <div class="charlie-socials">
+                <a href="https://github.com/Charlie-Martinez" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" width="32" height="32">
+                </a>
+                <a href="https://www.linkedin.com/in/charlie-martinez/" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="32" height="32">
+                </a>
+            </div>
+        </div>
     </div>
+
+    <!-- Placeholder card-->
     <div class="card">
         <h2>Jane Smith</h2>
         <p>Backend Developer</p>
         <button onclick="toggleBio('bio2')">Show Bio</button>
         <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
     </div>
+
+    <!-- Placeholder card-->
+    <div class="card">
+        <h2>Jane Smith</h2>
+        <p>Backend Developer</p>
+        <button onclick="toggleBio('bio2')">Show Bio</button>
+        <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
+    </div>
+
+    <!-- Placeholder card-->
     <div class="card">
         <h2>Emily Johnson</h2>
         <p>UI/UX Designer</p>
