@@ -181,3 +181,50 @@ button:hover {
 .team-rules li {
     margin: 0.8rem 0;
 }
+.ethan-card {
+    background: #eef6ff;
+    border-left: 4px solid #4a90e2;
+}
+
+.ethan-card:hover {
+    transform: scale(1.05);
+}
+
+.ethan-moodboard {
+    background: #dceeff;
+    border-radius: 15px;
+    padding: 0.8rem;
+    margin-top: 1rem;
+}
+
+.ethan-skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin: 0.8rem 0;
+}
+
+.ethan-skills-grid div {
+    background: #4a90e2;
+    color: white;
+    padding: 0.3rem 0.5rem;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    text-align: center;
+    transition: background 0.2s;
+}
+
+.ethan-skills-grid div:hover {
+    background: #2f6fb3;
+}
+
+.ethan-socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.ethan-socials a:hover {
+    transform: scale(1.1);
+}
