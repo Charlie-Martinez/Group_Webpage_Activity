@@ -228,3 +228,52 @@ button:hover {
 .ethan-socials a:hover {
     transform: scale(1.1);
 }
+
+/* Johnny's card styles */
+.johnny-card {
+    background: #e8f5e9;
+    border-left: 3px solid #2e7d32;
+}
+
+.johnny-card:hover {
+    transform: scale(1.05);
+}
+
+.johnny-moodboard {
+    background: #d0edda;
+    border-radius: 15px;
+    padding: 0.8rem;
+    margin-top: 1rem;
+}
+
+.johnny-skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin: 0.8rem 0;
+}
+
+.johnny-skills-grid div {
+    background: #2e7d32;
+    color: white;
+    padding: 0.3rem 0.5rem;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    text-align: center;
+    transition: background 0.2s;
+}
+
+.johnny-skills-grid div:hover {
+    background: #1b5e20;
+}
+
+.johnny-socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.johnny-socials a:hover {
+    transform: scale(1.11);
+}
