@@ -105,7 +105,7 @@ button:hover {
     justify-content: center;
 }
 
-/* Charlie's card styles */
+/* Begin Charlie's card styles */
 .charlie-card {
     background: #fff8e7;
     border-left: 3px solid
@@ -153,6 +153,7 @@ button:hover {
 .charlie-socials a:hover {
     transform: scale(1.1);
 }
+/* End Charlie's card styles */
 
 .vision-container {
     display: block;
@@ -181,6 +182,8 @@ button:hover {
 .team-rules li {
     margin: 0.8rem 0;
 }
+
+/* Begin Ethan's card styles */
 .ethan-card {
     background: #eef6ff;
     border-left: 4px solid #4a90e2;
@@ -229,32 +232,36 @@ button:hover {
     transform: scale(1.1);
 }
 
-/* Johnny's card styles */
-.johnny-card {
-    background: #e8f5e9;
-    border-left: 3px solid #2e7d32;
+/* End Ethan's card styles */
+
+
+
+/* Begin Jonathan's card styles */
+.jonathan-card {
+    background: #DAFFCB;
+    border-left: 3px solid
 }
 
-.johnny-card:hover {
+.jonathan-card:hover {
     transform: scale(1.05);
 }
 
-.johnny-moodboard {
-    background: #d0edda;
+.jonathan-moodboard {
+    background: #B9E2A7;
     border-radius: 15px;
     padding: 0.8rem;
     margin-top: 1rem;
 }
 
-.johnny-skills-grid {
+.jonathan-skills-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
     margin: 0.8rem 0;
 }
 
-.johnny-skills-grid div {
-    background: #2e7d32;
+.jonathan-skills-grid div {
+    background: #5C7153;
     color: white;
     padding: 0.3rem 0.5rem;
     border-radius: 30px;
@@ -263,17 +270,30 @@ button:hover {
     transition: background 0.2s;
 }
 
-.johnny-skills-grid div:hover {
-    background: #1b5e20;
+.jonathan-skills-grid div:hover {
+    background: #45553E;
 }
 
-.johnny-socials {
+.jonathan-socials {
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
 }
 
-.johnny-socials a:hover {
-    transform: scale(1.11);
+.jonathan-socials a:hover {
+    transform: scale(1.1);
 }
+
+.jonathan-avatar {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End Jonathan's card styles */
